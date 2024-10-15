@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    
+   
+}   
+.navbar{
+   
+    background-color:rgb(247, 154,131) ;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+    border-bottom: 2px solid white; 
+    
+} 
+
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}   
+.logo_big{
+    height: 100px;
+   
+}
+li{
+    list-style: none;
+    display: inline-flex;
+}
+
+li a{
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: Helvetica ;
+    font-size: 25px;
+    margin-right:50px ;
+    padding-top: 10px;
+    
+}
+li a:hover{
+    text-decoration: underline;
+}
+.logo_2{
+    width: 35px;
+    align-items: center;
+    margin-right: 25px;
+    
+}
+.logo_2:hover{
+    cursor: pointer;
+}
+.logo_2 a{
+    flex-direction: row;
+}
+.content1{
+    width: 100%;
+    height: 920px;
+    background-image: url(https://www.7up.com/images/simple-7up/image3.png);
+    background-size: cover;
+    background-position: center;
+}
+.content1_text{
+    padding-top: 370px;
+    padding-left: 150px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-weight: 800;
+    font-size: 85px;
+
+}
+.content1_text1{
+    padding-top:10PX;
+    padding-left: 150PX;
+    font-family:Helvetica, Arial, sans-serif ;
+    color: white;
+    font-weight: 800;
+    font-size: 85px; 
+}
+.content1_button{
+    margin-left: 150px;
+    margin-top: 35px;
+    border-radius: 30px;
+    height: 45px;
+    width: 350px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-weight: bold;
+}
+.content1_button:hover{
+cursor: pointer;
+}
+
+.content2{
+    display: flex;
+    width: 100%;
+    height: 920px;
+    background-image: url(https://www.7up.com/images/simple-7up/image2.png);
+    background-size: cover;
+    background-position: center;
+}
+.content2_text{
+    padding: 6px;
+    align-items: center;
+   display: flex;
+    flex-direction: column;
+    margin-top: 23%;
+    margin-left: 510px; 
+    font-size: 16px;
+    border-radius: 150px;
+    width: 45%;
+    height: 25%;
+    font-family: Helvetica;
+    font-size: 16px; 
+    background-color: rgba(10, 91, 43, 0.8); 
+    font-weight: bold;
+    color: white;
+    border: none;
+    justify-content: center;
+}
+.content2_button{
+    background-color: transparent;
+   width: 15rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 19px;
+    color: white;
+    font-family:Helvetica ;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 7px 36px;
+    text-decoration: none; 
+}
+
+.content2_button:hover{
+    cursor: pointer;
+}
+
+.content3{
+    display: flex;
+    width: 100%;
+    height: 920px;
+    background-image: url(https://www.7up.com/images/simple-7up/image1.png);
+    background-size: cover;
+    background-position: center;
+}
+.content3_text{
+    padding: 6px;
+    align-items: center;
+   display: flex;
+    flex-direction: column;
+    margin-top: 23%;
+    margin-left: 510px; 
+    font-size: 16px;
+    border-radius: 150px;
+    width: 45%;
+    height: 25%;
+    font-family: Helvetica;
+    font-size: 16px; 
+    background-color: rgba(10, 91, 43, 0.8); 
+    font-weight: bold;
+    color: white;
+    border: none;
+    justify-content: center;
+}
+.content3_button{
+    background-color: transparent;
+   width: 15rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 19px;
+    color: white;
+    font-family:Helvetica ;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 7px 36px;
+    text-decoration: none; 
+}
+
+.content3_button:hover{
+    cursor: pointer;
+}
+footer{
+    background-color: #3e3e3e;
+    background-size: cover;
+    position: relative;
+    
+}
+.footercontainer{
+    width: 100%;
+    padding: 6px;
+}
+.footernav{
+    margin: 3px 0;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footernav ul li a{
+
+    color: white;
+    margin:20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+.footernav ul li a:hover{
+    text-decoration: underline;
+}
+.footerbottom{
+
+    text-align: center;
+    
+}
+.footerbottom p{
+    color: white;
+    font-family: Helvetica;
+    font-size: 12px;
+    padding-bottom:4rem;
+}
